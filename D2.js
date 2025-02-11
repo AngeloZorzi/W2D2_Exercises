@@ -80,20 +80,24 @@ let d = 6;
 let e = 2;
 let f = 8;
 
-if(d > e && e > f){
+if (d > e && e > f) {
   console.log("l'ordine è ", d, e, f);
-} else if(e > d && d > f){
+} else if (e > d && d > f) {
   console.log("l'ordine è ", e, d, f);
-} else if(f > d && d > e){
+} else if (f > d && d > e) {
   console.log("l'ordine è ", f, d, e);
-};
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 /* SCRIVI QUI LA TUA RISPOSTA */
-const whatIs = 10
-if(typeof(whatIs) === "string"){console.log('questa è una stringa')} else if(typeof(whatIs) === "number"){console.log('questo è un numero')}
+const whatIs = 10;
+if (typeof whatIs === "string") {
+  console.log("questa è una stringa");
+} else if (typeof whatIs === "number") {
+  console.log("questo è un numero");
+}
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
