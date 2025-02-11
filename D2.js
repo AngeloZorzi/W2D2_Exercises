@@ -54,7 +54,7 @@ const totalShoppingCart = 70;
 if (totalShoppingCart > 50) {
   console.log("Hai raggiunto la spesa minima per la consegna gratuita!");
 } else {
-  console.log("Costo di spedizione: ", totalShoppingCart + 10);
+  console.log("Costo totale + spedizione: ", totalShoppingCart + 10);
 }
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
