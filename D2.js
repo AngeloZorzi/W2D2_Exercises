@@ -62,12 +62,12 @@ if (totalShoppingCart > 50) {
 */
 /* SCRIVI QUI LA TUA RISPOSTA */
 const totalShoppingCartBF = 45;
-if (totalShoppingCartBF - totalShoppingCartBF * 0.02 > 50) {
+if (totalShoppingCartBF - totalShoppingCartBF * 0.2 > 50) {
   console.log("Hai raggiunto la spesa minima per la consegna gratuita!");
 } else {
   console.log(
-    "Costo di spedizione: ",
-    totalShoppingCartBF - totalShoppingCartBF * 0.02 + 10
+    "Costo totale + spedizione: ",
+    totalShoppingCartBF - totalShoppingCartBF * 0.2 + 10
   );
 }
 /* ESERCIZIO 7
